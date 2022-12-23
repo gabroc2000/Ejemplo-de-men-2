@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+
+}
+body{
+    background-color: rgb(224, 250, 252);
+    display: flex;
+    align-items: center;
+    height: 300px;
+    font-family: 'Chivo Mono', monospace;
+}
+main{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    width: 120px;
+}
+.contenedorlogo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.barra-busqueda{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+.barra{
+    height: 30px;
+    width: 200px;
+    border-radius: 0px 10px 10px 0px;
+    border: 0px;
+    background-color: rgb(234, 234, 234);
+}
+.icono-busqueda{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+button{
+        width: 34px; 
+        height: 30px;
+        border-radius: 10px 0px 0px 10px;
+        border: 0px;
+        background-color: rgb(234, 234, 234);
+        
+    }
+
+nav{
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+nav a{
+    padding: 15px;
+}
+main div a{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+img{
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.icono-campana{
+    width: 20px;
+    height:20px;
+}
+.elementos-redes{
+    width: 30px;
+}
+.icono-mensajes{
+    width: 20px;
+    height: 20px;
+}
+div.redes{
+    display: flex;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+/* responsive*/
+
+@media (max-width:980px){
+    .menu{
+        display: none;
+    }
+    .register{
+        display: none;
+    }
+    .signin{
+        display: none;
+    }
+}
+
+
+@media (min-width:980px){
+    .menugrande{
+        display: none;
+    }
+}
