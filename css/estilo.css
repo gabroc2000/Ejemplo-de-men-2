@@ -15,7 +15,7 @@ body{
     background-color: rgb(224, 250, 252);
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 600px;
     font-family: 'Chivo Mono', monospace;
 }
 main{
@@ -45,10 +45,11 @@ main{
 }
 .barra{
     height: 30px;
-    width: 200px;
+    width: 225px;
     border-radius: 0px 10px 10px 0px;
     border: 0px;
     background-color: rgb(234, 234, 234);
+    
 }
 .icono-busqueda{
     width: 20px;
@@ -66,8 +67,8 @@ button{
     }
 
 nav{
-    width: 350px;
-    margin: 0 auto;
+    width: 150px;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
     font-size: 12px;
@@ -82,13 +83,38 @@ main div a{
     padding-left: 15px;
 
 }
+.menu{
+    margin-left: 40px;
+}
 img{
     border-radius: 50%;
     margin-right: 50px;
+    margin-left: 5px;
 }
 .icono-campana{
+    margin-left: 5px;
     width: 20px;
     height:20px;
+    margin-right: 0px;
+}
+.campana{
+    padding-right: 0px;
+}
+.icono-mensajes{
+    margin-left: 20px;
+}
+
+.punto{
+    color: rgb(234, 73, 4);
+    font-size: 25px;
+    height: 60px;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    
 }
 .elementos-redes{
     width: 30px;
