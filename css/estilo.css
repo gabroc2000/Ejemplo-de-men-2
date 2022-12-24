@@ -129,26 +129,27 @@ div.redes{
     padding: 0px;
     margin: 0px;
     justify-content: flex-end;
+    align-items: center; 
+}
+.hamburguesa{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
+    margin: 0 auto;
 }
-/* responsive*/
 
-@media (max-width:980px){
-    .menu{
+
+@media (max-width: 1150px) {
+    .menu {
         display: none;
-    }
-    .register{
-        display: none;
-    }
-    .signin{
+        }
+    div.redes{
         display: none;
     }
 }
 
-
-@media (min-width:980px){
-    .menugrande{
-        display: none;
+@media (min-width: 1150px) {
+    .hamburguesa{
+    display: none;
     }
 }
